@@ -35,7 +35,7 @@ function draw() {
 
 
   background(0);
-  directionalLight(51, 102, 126, 0, 1, 0);
+  
   translate(0, 50);
   rotateX(radians(100));
   fill(0,100,200, 50);
@@ -48,7 +48,7 @@ function draw() {
       vertex(x*scl, (y+1)*scl, terrain[x][y+1]);
 	
     }
-
+directionalLight(51, 102, 126, 0, 1, 0);
     endShape();
   }
 }
