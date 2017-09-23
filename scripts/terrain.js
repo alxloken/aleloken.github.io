@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
 
-  flying -= 0.1;
+  flying -= 0.01;
   var yoff = flying;
   for (var y = 0; y < rows; y++) {
     var xoff = 0;
@@ -36,7 +36,7 @@ function draw() {
 
   background(0);
   translate(0, 50);
-  rotateX(radians(-80));
+  rotateX(radians(80));
   fill(0,200,0, 50);
   translate(-w/2, -h/2);
   for (var y = 0; y < rows-1; y++) {
