@@ -36,7 +36,7 @@ function draw() {
 
   background(0);
   translate(0, 50);
-  rotateX(-PI/3);
+  rotateX(radians(90));
   fill(0,200,0, 50);
   translate(-w/2, -h/2);
   for (var y = 0; y < rows-1; y++) {
