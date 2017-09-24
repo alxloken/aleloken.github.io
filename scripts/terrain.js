@@ -42,7 +42,9 @@ function draw() {
   
   translate(0, 50);
   rotateX(radians(100));
-  fill(0,100,200, 50);
+	
+  //fill(0,100,200, 50);
+	
   translate(-w/2, -h/2);
   for (var y = 0; y < rows-1; y++) {
     beginShape(TRIANGLE_STRIP);
