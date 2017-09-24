@@ -49,6 +49,9 @@ function draw() {
   for (var y = 0; y < rows-1; y++) {
     beginShape(TRIANGLE_STRIP);
 	
+	  normal(0, 0, 1);
+
+	  
     for (var x = 0; x < cols; x++) {
       vertex(x*scl, y*scl, terrain[x][y]);
       vertex(x*scl, (y+1)*scl, terrain[x][y+1]);
