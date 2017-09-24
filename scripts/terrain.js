@@ -49,7 +49,7 @@ function draw() {
   for (var y = 0; y < rows-1; y++) {
     beginShape(TRIANGLE_STRIP);
 	
-	  normal(0, 0, 1);
+	  normal(0, 0, -1);
 
 	  
     for (var x = 0; x < cols; x++) {
