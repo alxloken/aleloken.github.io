@@ -48,7 +48,7 @@ function draw() {
       vertex(x*scl, (y+1)*scl, terrain[x][y+1]);
 	
     }
-directionalLight(51, 102, 126, 0, 1, 0);
+directionalLight(51, 250, 250, 0, 1, 0);
     endShape();
   }
 }
