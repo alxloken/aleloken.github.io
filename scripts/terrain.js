@@ -36,9 +36,9 @@ function draw() {
 
   background(0);
 	
-  ambientMaterial(250);
-  ambientLight(100);
-  directionalLight(51, 250, 250, 0, 1, 0);
+  //ambientMaterial(250);
+  //ambientLight(100);
+  //directionalLight(51, 250, 250, 0, 1, 0);
   
   translate(0, 50);
   rotateX(radians(100));
@@ -48,9 +48,6 @@ function draw() {
   translate(-w/2, -h/2);
   for (var y = 0; y < rows-1; y++) {
     beginShape(TRIANGLE_STRIP);
-	
-	  normal(0, 0, -1);
-
 	  
     for (var x = 0; x < cols; x++) {
       vertex(x*scl, y*scl, terrain[x][y]);
